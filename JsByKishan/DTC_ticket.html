@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST DOCUMENT</title>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<script>
+    function tstfunc() {
+        let a = prompt('Enter the code of starting stop')
+        let b = prompt('enter the code of destination stop')
+
+        if (a == 1 && b == 2) {
+            document.write('========================== </br> Ticket Booked</br> fare from najafgarh to dichaun kalan is 5 Rs.<br><br>==========================')
+        } else if (a == 1 && b == 3) {
+            document.write('============================== </br> Ticket Booked</br> fare from najafgarh to chanchal park is 5 Rs.<br><br>==============================')
+        } else if (a == 1 && b == 4) {
+            document.write('============================== </br> Ticket Booked</br> fare from najafgarh to ranhola is 10 Rs.<br><br>==============================')
+        } else if (a == 1 && b == 5) {
+            document.write('========================== </br>Ticket Booked </br> fare from najafgarh to nangloi is 15 Rs.<br><br>==========================')
+        } else if (a == 2 && b == 3) {
+            document.write('============================== </br> Ticket Booked</br> fare from dichaun kalan to chanchal park is 5 Rs.<br><br>==========================')
+        } else if (a == 2 && b == 4) {
+            document.write('============================== </br> Ticket Booked</br> fare from dichaun kalan to ranhola is 5 Rs.<br><br>===========================')
+        } else if (a == 2 && b == 5) {
+            document.write('============================== </br>Ticket Booked </br> fare from dichaun kalan to nangloi is 10 Rs.<br><br>==========================')
+        } else if (a == 3 && b == 4) {
+            document.write('============================== </br> Ticket Booked</br> fare from chanchal park to ranhola is 5 Rs.<br><br>==========================')
+        } else if (a == 3 && b == 5) {
+            document.write('============================== </br>Ticket Booked </br> fare from chanchal park to nangloi is 10 Rs.<br><br>=========================')
+        } else if (a == 4 && b == 5) {
+            document.write('============================== </br> Ticket Booked</br> fare from ranhola to nangloi is 10 Rs.<br><br>==========================')
+        } else if (a == 5 && b == 1) {
+            document.write('============================== </br> Ticket Booked</br> fare from  nangloi to najafgarh is 15 Rs.<br><br>==========================')
+        } else if (a == 5 && b == 2) {
+            document.write('============================== </br> Ticket Booked</br> fare from  nangloi to dichaun kalan is 10 Rs.<br><br>==========================')
+        } else if (a == 5 && b == 3) {
+            document.write('============================== </br> Ticket Booked</br> fare from  nangloi to chanchal park is 5 Rs.<br><br>==========================')
+        } else if (a == 5 && b == 4) {
+            document.write('============================== </br> Ticket Booked</br> fare from  nangloi to ranhola is 5 Rs.<br><br>==========================')
+        } else if (a == 4 && b == 1) {
+            document.write('============================== </br> Ticket Booked</br> fare from ranhola to najafgarh is 10 Rs.<br><br>==========================')
+        } else if (a == 4 && b == 2) {
+            document.write('============================== </br> Ticket Booked</br> fare from ranhola to dichaun kalan is 5 Rs.<br><br>==========================')
+        } else if (a == 4 && b == 3) {
+            document.write('============================== </br> Ticket Booked</br> fare from ranhola to chanchal park is 5 Rs.<br><br>==========================')
+        } else if (a == 3 && b == 1) {
+            document.write('============================== </br> Ticket Booked</br> fare from chanchal park to najafgarh is 5 Rs.<br><br>==========================')
+        } else if (a == 3 && b == 2) {
+            document.write('============================== </br> Ticket Booked</br> fare from chanchal park to dichaun kalan is 5 Rs.<br><br>==========================')
+        } else if (a == 4 && b == 5) {
+            document.write('============================== </br> Ticket Booked</br> fare from ranhola to nangloi is 5 Rs.<br><br>==========================')
+        } else {
+            document.write('wrong input please check the ticket chart and try again!')
+        }
+    }
+</Script>
+
+<body style="background-color:powderblue;">
+    <center>
+        <h1>
+            Welcome to Delhi Transport Corpration!</h1>
+        <marquee behavior="alternate" direction="right" bgcolor="white" style="font-size:larger" onMouseOver="this.stop()" onMouseOut="this.start()">All DTC Buses are FREE for Womens, 2 GAZ DOORI MASK HAI ZAROORI!</marquee>
+        <p>TO BOOK TICKET PRESS THE BUTTON BELOW ENTER STARTING STOP CODE THEN ENDING STOP CODE!</p>
+        <table border=2% style='width: 50%;'>
+            <tr>
+                <th>CODE</th>
+                <th>STOP NAMES</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NAJAFGARH</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DICHAUN KALAN</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>CHANCHAL PARK</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>RANHAULA</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>NANGLOI</td>
+            </tr>
+        </table>
+        <br>
+        <small>
+            Fare from starting to ending stop is 15RS.<br>
+            Fare for three stops is 10RS<br>
+            Fare for two or one stop is 5RS<br><br>
+        </small> <input type="submit" class="btn btn-secondary" value=" Press here to book ticket " onclick="tstfunc() ">
+    </center>
+    <footer id="footer" style="background-color:rgb(60, 60, 255) ">
+
+        <a href="https://www.facebook.com/dtc.delhi/ " class="fa fa-facebook "></a>
+        <a href="https://twitter.com/dtchq_delhi " class="fa fa-twitter "></a>
+        <a href="https://www.youtube.com/watch?v=20UG4EabRcY " class="fa fa-youtube "></a>
+        <a href="https://www.instagram.com/delhibus1234/?hl=en " class="fa fa-instagram "></a>
+
+    </footer>
+    <style>
+        #footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+        
+        .fa {
+            padding: 15px;
+            font-size: 20px;
+            width: 50px;
+            text-decoration: none;
+            margin: 1px 1px;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #2f426b;
+            color: white;
+        }
+        
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+        
+        .fa-instagram {
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+    </style>
+</body>
+
+</html>
